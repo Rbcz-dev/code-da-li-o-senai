@@ -1,0 +1,17 @@
+numero_int=int(input("digite um número inteiro "))
+print("O quadrado desse número é ",numero_int*número_int)
+
+
+nome=input("digite seu nome ")
+sobre=input("digite seu sobrenome ")
+print(nome,sobre)
+
+n1="python"
+n2=10
+print(n1,n2)
+
+
+n5="A cobra fumou"
+print('a cobra vai fumar')
+n6=input('complete esta frase ')
+print(n5,n6)

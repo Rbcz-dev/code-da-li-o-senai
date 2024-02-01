@@ -35,24 +35,24 @@ endereco=input("digite seu endereço ")
 curso=input("digite seu curso ")
 email_do_estudante=input("digite seu email ")
 senha_do_usuario=input("digite sua nova senha ")
-print(".........................................")
+print("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<")
 print("Olá para acesar o digite a senha ")
 acesso_do_usuario= input("Para acessar sua conta digite sua senha: ")
 acesso_email=input("Para acessar sua conta digite seu email: ")
 
 if senha_do_usuario==acesso_do_usuario and email_do_estudante==acesso_email:
-    print("Olá: ",nome_usuario)
+    print("Cadastrado com sucesso)
     print("Seus dados são os seguintes: ")
-    print("...................................")
+    print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
     print("Sua idade é:" ,idade)
     print("Seu endereço é: ",endereco)
     print("O curso escolhido é:", curso)
 else :
     print("senha ou email icorreto")
+
+
+
 #print("Bem vindo")
-
-
-
 
 
 
@@ -76,3 +76,9 @@ else :
 #c2=int(input("digite um número para subtrai o primeiro dado: "))
 #c3=(c1-c2)
 #print(c3)
+
+d1=int(10)
+d2=int(2)
+d3=(d1/d2)
+print('O resultado da divisão de 10/20 é igual a',d3)
+

@@ -23,6 +23,9 @@
 
 
 
+
+
+
 # aula 5
 
 
@@ -46,3 +49,30 @@ if senha_do_usuario==acesso_do_usuario and email_do_estudante==acesso_email:
     print("O curso escolhido é:", curso)
 else :
     print("senha ou email icorreto")
+#print("Bem vindo")
+
+
+
+
+
+
+
+#true="1"
+#false="2"
+
+
+#a1=float(input("digite um numero : "))
+#a2=float(input("digite um número para multiplicar o primeiro número: "))
+#a3=(a1*a2)
+#print(a3)
+
+
+#b1=int(input("digite um numero para ser dividido: "))
+#b2=int(input("digite um numero para dividir o primeiro dado: "))
+#b3=(b1/b2)
+#print(b3)
+
+#c1=int(input("digite um numero para ser subtraido: "))
+#c2=int(input("digite um número para subtrai o primeiro dado: "))
+#c3=(c1-c2)
+#print(c3)

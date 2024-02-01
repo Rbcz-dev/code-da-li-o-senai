@@ -24,11 +24,7 @@
 
 
 
-
-
-# aula 5
-
-
+CDRT=input("coloque seus dados para receber as informações do curso, para prosseguir pressione  enter: ")
 nome_usuario= input("digite seu nome: ")
 idade=input("digite sua idade ")
 endereco=input("digite seu endereço ")
@@ -41,9 +37,10 @@ acesso_do_usuario= input("Para acessar sua conta digite sua senha: ")
 acesso_email=input("Para acessar sua conta digite seu email: ")
 
 if senha_do_usuario==acesso_do_usuario and email_do_estudante==acesso_email:
-    print("Cadastrado com sucesso)
+    print("Cadastrado com sucesso")
     print("Seus dados são os seguintes: ")
     print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
+    print("Olá" ,nome_usuario)
     print("Sua idade é:" ,idade)
     print("Seu endereço é: ",endereco)
     print("O curso escolhido é:", curso)

@@ -19,3 +19,30 @@
 # print('a cobra vai fumar')
 # n6=input('complete esta frase ')
 # print(n5,n6)
+
+
+
+
+# aula 5
+
+
+nome_usuario= input("digite seu nome: ")
+idade=input("digite sua idade ")
+endereco=input("digite seu endereço ")
+curso=input("digite seu curso ")
+email_do_estudante=input("digite seu email ")
+senha_do_usuario=input("digite sua nova senha ")
+print(".........................................")
+print("Olá para acesar o digite a senha ")
+acesso_do_usuario= input("Para acessar sua conta digite sua senha: ")
+acesso_email=input("Para acessar sua conta digite seu email: ")
+
+if senha_do_usuario==acesso_do_usuario and email_do_estudante==acesso_email:
+    print("Olá: ",nome_usuario)
+    print("Seus dados são os seguintes: ")
+    print("...................................")
+    print("Sua idade é:" ,idade)
+    print("Seu endereço é: ",endereco)
+    print("O curso escolhido é:", curso)
+else :
+    print("senha ou email icorreto")

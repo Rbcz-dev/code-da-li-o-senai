@@ -77,8 +77,8 @@ else :
 #c3=(c1-c2)
 #print(c3)
 
-d1=int(10)
-d2=int(2)
+d1=int(input('digite um numero para ser dividido '))
+d2=int(input('digite um numero poara dividir '))
 d3=(d1/d2)
-print('O resultado da divisão de 10/20 é igual a',d3)
-
+print('O resultado da divisão dos tais numeros ',d1,d2) 
+print('É igual',d3)

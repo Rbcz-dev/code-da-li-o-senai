@@ -79,3 +79,81 @@ d2=int(input('digite um numero poara dividir '))
 d3=(d1/d2)
 print('O resultado da divisão dos tais numeros ',d1,d2) 
 print('É igual',d3)
+
+
+#n=int(input("digite um numero para multiplicá-lo por dois "))
+#numero2=(n*2)
+#print(numero2)
+
+
+#n=int(input("digite um numero "))
+#n2=int(input("digite um numero para multiplicar o primeiro dado "))
+#n3=int(input("digite um nmero para dividir o resultado da multiplicação "))
+#x=(n*n2/n3)
+#print(x)
+
+#n=int(4)
+#n1=int(6)
+#n2=int(2)
+#x=(n*n1/n2)
+#print(x)
+
+#n=5
+#n1=7
+#soma=(n+n1)
+#print(soma)
+
+#n1=(3)
+#n2=(4)
+#n3=(n1**n2)
+#print(n3)
+
+#n1=(8)
+#n2=(12)
+#n3=(15)
+#n4=(8+12+15)
+#n5=n4/3
+#print(n5)
+
+#n1=(10)
+#n2=(2)
+#n3=(5)
+#n4=(n2-n1)
+#n5=(n4*n3)
+#print(n5)
+
+#n1=(27)
+#n2=(3)
+#n3=(5)
+#n4=(n1/n2)
+#n5=(n4+n3)
+#print(n5)
+
+#n1=17%4==0
+#print(n1)
+
+#n1=int(input("escolha um numero "))
+#n2=int(input("escolha outro numero para multiplicar o primeiro "))
+#n3=(n1*n2)
+#n4=(n3**2)
+#print(n4)
+
+#n1=int(input("escolha um numero "))
+#n2=int(input("adicione um numero divisivel pelo numero de cima "))
+#n3=(n1%n2==0)
+#print(n3)
+
+#n1=int(input('escolha um numero para o calculo '))
+#n2=int(input('escolha outro numero para multiplicar o Primeiro '  ))
+#n3=int(input('escolha um numero para somar '))
+#n4=(n1*n2)
+#n5=(n4+n3)
+#print(n5)
+
+#n1=int(input('escolha um numero para o calculo '))
+#n2=int(input('escolha outro numero para multiplicar o Primeiro '  ))
+#n3=int(input('escolha um numero para subtrai '))
+#n4=(n1*n2)
+#n5=(n4-n3)
+#print(n5)
+

@@ -157,3 +157,36 @@ print('É igual',d3)
 #n5=(n4-n3)
 #print(n5)
 
+#for n in range (0,100,10):
+   #print(n,'Brasil')
+# regra no final do codigo soempre termine com dois pontos
+#regra2 use a  função range para listar
+# o terceiro numero ´r de quntos em quantos voce quer que ele conte
+
+#numeros= list [1,2,3,4,5]
+#print(numeros)
+
+#numeros=[1,2,3,4,5]
+##print(elemento)  
+
+#numeros=[1,2,3,4,5]
+#numeros.append(6)
+#print(numeros)
+
+#numeros=[1,2,3,4,5]
+#numeros.remove(3)
+#print(numeros)
+
+#frutas=['melancia','melão','jaca']
+#numeros=[1,2,3,4,5]
+#print(frutas,numeros)
+
+#lista_num=[12,45,45,89,78,3,6,78,87]
+#for lista in lista_num:
+ # print(lista)
+
+ 
+#numeros=[1,2,3,4,5]:
+#if 5 in numeros:
+  # print("Bão")
+

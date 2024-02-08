@@ -185,6 +185,48 @@ print('É igual',d3)
 #for lista in lista_num:
  # print(lista)
 
+
+
+print("Olá, bem-vindo ao Banco RBF")
+opcao=input('digite qual operação você deseja?' )
+
+
+def banco ():  
+    
+    if opcao == '':
+        ()
+    elif opcao == '':
+        ()
+    elif opcao == '':
+        ()
+    elif opcao == '':
+        ()
+    else:
+        print('Não tem este calculo, volte mais tarde.')
+
+def saque():
+    a1=int('digite o numero:')
+    a2=int(input('digite o numero: '))
+    print(a1-a2)
+    
+
+
+def deposito():
+    c1=int('digite o numero: ')
+    c2=int(input('digite o numero: '))
+    print(c1+c2)
+    
+def extrato():
+    b2=int('digite o numero: ')
+    print(b2)
+    
+def extrato do banco():
+    d1=int()
+    d2=int()
+    print()
+
+brain()
+
  
 #numeros=[1,2,3,4,5]:
 #if 5 in numeros:

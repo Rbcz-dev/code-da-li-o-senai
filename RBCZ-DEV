@@ -186,48 +186,40 @@ print('É igual',d3)
  # print(lista)
 
 
-
 cliente=7000
 
 print("Olá, bem-vindo ao Banco RBF")
 
-
-
-def rbcz ():
-    global cliente 
+def rbcz ():  
     opcao=input('digite qual operação você deseja utilizar? saque,depósito ou extrato?.' )
     if opcao == 'saque':
-        saque(cliente)
+        saque()
     elif opcao == 'depósito':
-        deposito(cliente)
+       deposito()
     elif opcao == 'extrato':
-        extrato(cliente)
+        extrato()
     else:
         print('Não tem esta operação.')
 
-def saque(saldo):
-    global cliente
+def saque():
     a2=int(input('digite um valor para sacar : '))
-    b2=(a2-cliente)
+    b2=a2-cliente
     if a2 <= cliente:
         print('saque bem sucedido')
     else:
-        print('Gostaria de um empréstimo?, pois você não tem esse saldo na conta')
-    return saldo
+        print('gostaria de um empréstimo?, pois você não tem esse saldo na conta')
     
     
-def deposito(saldo):
-    global cliente
+    
+def deposito():
     c2=float(input('digite o valor para depositar: '))
-    j9=(c2+cliente)
-    print('deposito bem sucedido',j9)
-    return saldo
+    print(c2+cliente)
+    print('deposito bem sucedido')
     
-def extrato(saldo):
-    global cliente
+def extrato():
     print(cliente)
-    return saldo
+    
 rbcz()
-
-  # print("Bão")
+ 
+# print("Bão")
 

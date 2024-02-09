@@ -187,48 +187,47 @@ print('É igual',d3)
 
 
 
+cliente=7000
+
 print("Olá, bem-vindo ao Banco RBF")
-opcao=input('digite qual operação você deseja?' )
 
 
-def banco ():  
-    
-    if opcao == '':
-        ()
-    elif opcao == '':
-        ()
-    elif opcao == '':
-        ()
-    elif opcao == '':
-        ()
+
+def rbcz ():
+    global cliente 
+    opcao=input('digite qual operação você deseja utilizar? saque,depósito ou extrato?.' )
+    if opcao == 'saque':
+        saque(cliente)
+    elif opcao == 'depósito':
+        deposito(cliente)
+    elif opcao == 'extrato':
+        extrato(cliente)
     else:
-        print('Não tem este calculo, volte mais tarde.')
+        print('Não tem esta operação.')
 
-def saque():
-    a1=int('digite o numero:')
-    a2=int(input('digite o numero: '))
-    print(a1-a2)
+def saque(saldo):
+    global cliente
+    a2=int(input('digite um valor para sacar : '))
+    b2=(a2-cliente)
+    if a2 <= cliente:
+        print('saque bem sucedido')
+    else:
+        print('Gostaria de um empréstimo?, pois você não tem esse saldo na conta')
+    return saldo
     
-
-
-def deposito():
-    c1=int('digite o numero: ')
-    c2=int(input('digite o numero: '))
-    print(c1+c2)
     
-def extrato():
-    b2=int('digite o numero: ')
-    print(b2)
+def deposito(saldo):
+    global cliente
+    c2=float(input('digite o valor para depositar: '))
+    j9=(c2+cliente)
+    print('deposito bem sucedido',j9)
+    return saldo
     
-def extrato do banco():
-    d1=int()
-    d2=int()
-    print()
+def extrato(saldo):
+    global cliente
+    print(cliente)
+    return saldo
+rbcz()
 
-brain()
-
- 
-#numeros=[1,2,3,4,5]:
-#if 5 in numeros:
   # print("Bão")
 

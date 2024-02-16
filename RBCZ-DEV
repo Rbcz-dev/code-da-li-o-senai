@@ -223,3 +223,6 @@ rbcz()
  
 # print("Bão")
 
+# for n in range(99,0,-2):
+#     print(n)
+

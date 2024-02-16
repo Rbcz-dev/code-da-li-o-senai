@@ -15,3 +15,10 @@ n5="A cobra fumou"
 print('a cobra vai fumar')
 n6=input('complete esta frase ')
 print(n5,n6)
+
+
+n=int(input('digite um numero interiro lendario: '))
+
+for i in range(0,11):
+    m=i*n
+    print(n,'x',i,'=',m)

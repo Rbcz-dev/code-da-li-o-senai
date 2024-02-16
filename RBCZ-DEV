@@ -217,6 +217,14 @@ def deposito():
     print('deposito bem sucedido')
     
 def extrato():
+
+
+
+
+
+
+# for n in range(99,0,-2):
+#     print(n)
     print(cliente)
     
 rbcz()

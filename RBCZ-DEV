@@ -234,3 +234,34 @@ rbcz()
 # for n in range(99,0,-2):
 #     print(n)
 
+
+class Banco_Zurich:
+  def __init__(self):
+      self.saldo = 0
+
+  def deposito(self):
+      c2 = float(input('Digite o valor para depositar: '))
+      self.saldo += c2
+      print(f"Depósito de R${c2} reais realizado com sucesso.")
+
+  def saque(self):
+      a2 = int(input('Digite um valor para sacar: '))
+      self.saldo -= a2
+      if a2 <= self.saldo:
+          print(f"Saque de R${a2} reais realizado com sucesso.")
+      else:
+          print('Gostaria de um empréstimo? Pois você não tem esse saldo na conta, durooo.')
+
+  def extrato(self):
+      print(f"Saldo atual: R${self.saldo} reais")
+
+minha_conta = Banco_Zurich()
+opcao = input('Digite qual operação você deseja utilizar? Saque, depósito ou extrato? ')
+if opcao == 'saque':
+  minha_conta.saque()
+elif opcao == 'depósito':
+  minha_conta.deposito()
+elif opcao == "extrato":
+  minha_conta.extrato()
+else:
+  print('Não há esta operação.')

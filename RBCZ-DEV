@@ -268,20 +268,40 @@ else:
 
 
 
-
-
-
 import tkinter as tk
 
 def soma():
     n1=float(input_entry.get())
     n2=float(input_entry.get())
     resultado1 = n1+n2
-    resultado['text']=f'Resultado da soma = {resultado1}'    
+    resultado['text']=f'Resultado da soma = {resultado1}'  
+
+def subtração():
+    n1=float(input_entry.get())
+    n2=float(input_entry.get())
+    resultado2 = n1-n2
+    resultado['text']=f'Resultado da soma = {resultado2}'  
+
+def multiplicação():
+    n1=float(input_entry.get())
+    n2=float(input_entry.get())
+    resultado3 = n1+n2
+    resultado['text']=f'Resultado da soma = {resultado3}'
+def divisão():
+    n1=float(input_entry.get())
+    n2=float(input_entry.get())
+    resultado4 = n1/n2
+    resultado['text']=f'Resultado da soma = {resultado4}'  
+def elevar():
+    n1=float(input_entry.get())
+    n2=float(input_entry.get())
+    resultado4 = n1**n2
+    resultado['text']=f'Resultado da soma = {resultado4}'
+
 
 
 root= tk.Tk()
-root.geometry=('500x500')
+root.geometry('500x500')
 
 label1= tk.Label(root,text='Isso é um texto',fg='red',bg='white',font='arial',width='50')
 label1.pack()
@@ -301,7 +321,7 @@ input_entryn2.place(width=50,pady=10)
 btn=tk.Button(root,text='clique aqui',fg='red',bg='white',width=10,height=2,command=soma)
 btn.pack(pady=20)
 
-resultado= tk.label(root,text='',font='Arial',bg='yellow',fg='black')
+resultado= tk.Label(root,text='',font='Arial',bg='yellow',fg='black')
 resultado.pack()
 
 root.mainloop()

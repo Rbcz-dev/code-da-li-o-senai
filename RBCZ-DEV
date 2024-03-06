@@ -276,35 +276,35 @@ class CalculadoraRB:
         self.root.geometry('500x500')
         self.root.configure(bg='black')
         
-        label1 = tk.Label(root, text='Calculadora do Baruck do Jaca', fg='red', bg='black', font='arial', width=50)
+        label1 = tk.Label(root, text='Calculadora do Baruck do Jaca', fg='skyblue', bg='white', font='arial', width=50)
         label1.pack()
 
-        label_n1 = tk.Label(root, text='Digite o primeiro Número: ',fg='red', width=45)
+        label_n1 = tk.Label(root, text='Digite o primeiro Número: ',fg='skyblue', width=45)
         label_n1.pack()
         self.input_entry1 = tk.Entry(root, width=10)
         self.input_entry1.pack(pady=5)
 
-        label_n2 = tk.Label(root, text='Digite o segundo número: ',fg='red', width=45)
+        label_n2 = tk.Label(root, text='Digite o segundo número: ',fg='skyblue', width=45)
         label_n2.pack()
         self.input_entry2 = tk.Entry(root, width=10)
         self.input_entry2.pack(pady=5)
 
-        btn_soma = tk.Button(root, text='Soma', fg='red', bg='white', width=12, height=2, command=self.soma)
+        btn_soma = tk.Button(root, text='Soma', fg='skyblue', bg='white', width=12, height=2, command=self.soma)
         btn_soma.pack(pady=5)
 
-        btn_subtracao = tk.Button(root, text='Subtração', fg='red', bg='white', width=12, height=2, command=self.subtracao)
+        btn_subtracao = tk.Button(root, text='Subtração', fg='skyblue', bg='white', width=12, height=2, command=self.subtracao)
         btn_subtracao.pack(pady=5)
 
-        btn_multiplicacao = tk.Button(root, text='Multiplicação', fg='red', bg='white', width=12, height=2, command=self.multiplicacao)
+        btn_multiplicacao = tk.Button(root, text='Multiplicação', fg='skyblue', bg='white', width=12, height=2, command=self.multiplicacao)
         btn_multiplicacao.pack(pady=5)
 
-        btn_divisao = tk.Button(root, text='Divisão', fg='red', bg='white', width=12, height=2, command=self.divisao)
+        btn_divisao = tk.Button(root, text='Divisão', fg='skyblue', bg='white', width=12, height=2, command=self.divisao)
         btn_divisao.pack(pady=5)
 
-        btn_elevar = tk.Button(root, text='Elevar', fg='red', bg='white', width=12, height=2, command=self.elevar)
+        btn_elevar = tk.Button(root, text='Elevar', fg='skyblue', bg='white', width=12, height=2, command=self.elevar)
         btn_elevar.pack(pady=5)
 
-        self.resultado_label = tk.Label(root, text='', font='Arial', bg='yellow', fg='black')
+        self.resultado_label = tk.Label(root, text='', font='Arial', bg='skyblue', fg='black')
         self.resultado_label.pack(pady=5)
 
     def get_values(self):
